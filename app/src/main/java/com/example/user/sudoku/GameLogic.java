@@ -28,6 +28,4 @@ public class GameLogic {
         square.setValue(value);
         board[square.getLocation().getX()][square.getLocation().getY()].setValue(value);
     }
-
-
 }
