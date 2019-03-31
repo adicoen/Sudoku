@@ -2,6 +2,7 @@ package com.example.user.sudoku;
 
 import android.graphics.Bitmap;
 
+//how can I use this?
 public class Square {
 
     private int value;

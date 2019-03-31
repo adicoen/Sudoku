@@ -1,5 +1,6 @@
 package com.example.user.sudoku;
 
+//is this still useful
 public class Location {
     private int x;
     private int y;
