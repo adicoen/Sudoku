@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String str = "button" + i;
             if (i != 6) {
                 button = findViewById(getResources().getIdentifier(str, "id", getPackageName()));
-                buttons[i] = button;
+                buttons[i - 2] = button;
             }
         }
         text = findViewById(R.id.textView2);
-        for (int i = 0; i < 91; i++) {
+        for (int i = 0; i < 9; i++) {
             buttons[i].setOnClickListener(this);
         }
     }
