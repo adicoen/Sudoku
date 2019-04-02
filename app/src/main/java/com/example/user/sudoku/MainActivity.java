@@ -11,10 +11,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button[] buttons;
     Button button;
-    Button b1, b12, b91, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49, b50, b51, b52, b53, b54, b55, b56, b57, b58, b59, b60, b61, b62, b63, b64, b65, b66, b67, b68, b69, b70, b71, b72, b73, b74, b75, b76, b77, b78, b79, b80, b81, b82, b83, b84, b85, b86, b87, b88, b89, b90;
+    Button[] given;
+    int[] nums;
     TableLayout board, bar;
     String value = "1";
     TextView text;
+    int give = 26;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +34,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
         text = findViewById(R.id.textView2);
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 91; i++) {
             buttons[i].setOnClickListener(this);
         }
+        given = new Button[]{buttons[82], buttons[84], buttons[86], buttons[89], buttons[90], buttons[74], buttons[79], buttons[64], buttons[66], buttons[69], buttons[55], buttons[56], buttons[51], buttons[54], buttons[38], buttons[42], buttons[43], buttons[44], buttons[45], buttons[32], buttons[35], buttons[36], buttons[22], buttons[26], buttons[10], buttons[11], buttons[18]};
+
     }
 
     @Override
