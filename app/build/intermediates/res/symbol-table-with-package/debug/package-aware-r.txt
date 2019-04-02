@@ -1210,6 +1210,7 @@ id group_divider
 id groups
 id home
 id homeAsUp
+id horizontalScrollView
 id icon
 id icon_group
 id ifRoom
@@ -1262,6 +1263,8 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
+id scrollView3
 id scrollable
 id search_badge
 id search_bar
