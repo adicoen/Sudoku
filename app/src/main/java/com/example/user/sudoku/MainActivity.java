@@ -1,5 +1,6 @@
 package com.example.user.sudoku;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -34,11 +35,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
         text = findViewById(R.id.textView2);
-        for (int i = 0; i < 91; i++) {
+        /*for (int i = 0; i < 91; i++) {
             buttons[i].setOnClickListener(this);
+        }*/
+        given = new Button[]{buttons[82], buttons[84], buttons[86], buttons[89], buttons[90], buttons[74], buttons[79], buttons[64], buttons[66], buttons[69], buttons[55], buttons[56], buttons[51], buttons[52], buttons[54], buttons[38], buttons[42], buttons[43], buttons[44], buttons[32], buttons[35], buttons[36], buttons[22], buttons[26], buttons[10], buttons[11], buttons[18]};
+        nums = new int[]{1, 2, 8, 7, 9, 9, 1, 7, 4, 9, 9, 1, 8, 9, 3, 8, 7, 2, 5, 2, 4, 5, 4, 9, 3, 4, 6};
+        for (int i = 0; i < given.length; i++) {
+            given[i].setText(Integer.toString(nums[i]));
+            given[i].setTextColor(Color.parseColor("#5e6c82"));
+            given[i].setClickable(false);
         }
-        given = new Button[]{buttons[82], buttons[84], buttons[86], buttons[89], buttons[90], buttons[74], buttons[79], buttons[64], buttons[66], buttons[69], buttons[55], buttons[56], buttons[51], buttons[54], buttons[38], buttons[42], buttons[43], buttons[44], buttons[45], buttons[32], buttons[35], buttons[36], buttons[22], buttons[26], buttons[10], buttons[11], buttons[18]};
-
     }
 
     @Override
