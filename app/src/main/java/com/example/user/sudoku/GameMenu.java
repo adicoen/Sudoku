@@ -12,7 +12,7 @@ public class GameMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_menu);
-        Button btn = findViewById(R.id.button6);
+        Button btn = findViewById(R.id.button1);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

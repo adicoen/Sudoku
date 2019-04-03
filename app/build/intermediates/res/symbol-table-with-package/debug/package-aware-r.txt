@@ -1073,6 +1073,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button1
 id button10
 id button11
 id button12
@@ -1083,7 +1084,6 @@ id button16
 id button17
 id button18
 id button19
-id button2
 id button20
 id button21
 id button22
@@ -1211,6 +1211,7 @@ id groups
 id home
 id homeAsUp
 id horizontalScrollView
+id horizontalScrollView1
 id icon
 id icon_group
 id ifRoom
@@ -1263,8 +1264,10 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView10
 id scrollView2
 id scrollView3
+id scrollView4
 id scrollable
 id search_badge
 id search_bar

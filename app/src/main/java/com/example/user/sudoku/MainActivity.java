@@ -27,42 +27,38 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         board = (TableLayout) findViewById(R.id.tableLayout);
         bar = (TableLayout) findViewById(R.id.tableLayout2);
         buttons = new Button[91];
-        for (int i = 2; i < 93; i++) {
+        for (int i = 3; i < 94; i++) {
             String str = "button" + i;
-            if (i != 6) {
-                button = findViewById(getResources().getIdentifier(str, "id", getPackageName()));
-                buttons[i - 2] = button;
-            }
+            button = findViewById(getResources().getIdentifier(str, "id", getPackageName()));
+            buttons[i - 3] = button;
+            buttons[i - 3].setOnClickListener(this);
         }
         text = findViewById(R.id.textView2);
-        /*for (int i = 0; i < 91; i++) {
-            buttons[i].setOnClickListener(this);
-        }*/
-        given = new Button[]{buttons[82], buttons[84], buttons[86], buttons[89], buttons[90], buttons[74], buttons[79], buttons[64], buttons[66], buttons[69], buttons[55], buttons[56], buttons[51], buttons[52], buttons[54], buttons[38], buttons[42], buttons[43], buttons[44], buttons[32], buttons[35], buttons[36], buttons[22], buttons[26], buttons[10], buttons[11], buttons[18]};
+        text.setText(value);
+        given = new Button[]{buttons[81], buttons[83], buttons[85], buttons[88], buttons[89], buttons[73], buttons[78], buttons[63], buttons[65], buttons[68], buttons[54], buttons[55], buttons[50], buttons[51], buttons[53], buttons[37], buttons[41], buttons[42], buttons[43], buttons[31], buttons[34], buttons[35], buttons[21], buttons[25], buttons[9], buttons[10], buttons[17]};
         nums = new int[]{1, 2, 8, 7, 9, 9, 1, 7, 4, 9, 9, 1, 8, 9, 3, 8, 7, 2, 5, 2, 4, 5, 4, 9, 3, 4, 6};
         for (int i = 0; i < given.length; i++) {
             given[i].setText(Integer.toString(nums[i]));
             given[i].setTextColor(Color.parseColor("#5e6c82"));
-            given[i].setClickable(false);
         }
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.button2:
+            case R.id.button3:
                 value = "1";
                 text.setText(value);
                 break;
-            case R.id.button3:
+            case R.id.button4:
                 value = "2";
                 text.setText(value);
                 break;
-            case R.id.button4:
+            case R.id.button5:
                 value = "3";
                 text.setText(value);
                 break;
-            case R.id.button5:
+            case R.id.button6:
                 value = "4";
                 text.setText(value);
                 break;
