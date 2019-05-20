@@ -1,5 +1,6 @@
 package com.example.user.sudoku;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String value = "1";
     TextView text;
     int give = 26;
+    int count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +94,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         buttons[i].setText(value);
                     }
                 }
+        }
+        for (int i = 3; i < 84; i++) {
+            count += Integer.parseInt(buttons[i].getText().toString());
+        }
+        if (count == 405) {
+            startActivity(new Intent(MainActivity.this, Highscores.class));
         }
     }
 }
