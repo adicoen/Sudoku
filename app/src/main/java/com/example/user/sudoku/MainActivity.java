@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if (v == buttons[i])
                         buttons[i].setText(value);
         }
-
         for (int i = 9; i < 90; i++) {
             if (buttons[i].getText() == "")
                 break;
