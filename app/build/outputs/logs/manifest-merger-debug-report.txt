@@ -7,9 +7,9 @@ INJECTED from /Users/eddiecohen/AndroidStudioProjects/Sudoku/app/src/main/Androi
 MERGED from [com.android.support:design:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/fbed2a9aa673ccb19aacaab79cfad8f9/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/4df1b4458a48b94b1b2f4b00d09568bc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/99840ac7bd0a558dc66f726b29a5938b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/25adb0813af422017d85e4eb6504fcd9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/a76db1f7bd6c8939c5c7c55ed4332733/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/e6124f7af8e3994f052d8d3b71105ab3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/34c2bdcfa4789b9719d8f5b4c819ecff/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/7bf03c22cc7ac83cc1a53de0a2818fb9/AndroidManifest.xml:17:1-22:12
@@ -112,12 +112,12 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eddiecohen/.gradle/
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/4df1b4458a48b94b1b2f4b00d09568bc/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/99840ac7bd0a558dc66f726b29a5938b/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/99840ac7bd0a558dc66f726b29a5938b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/25adb0813af422017d85e4eb6504fcd9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/25adb0813af422017d85e4eb6504fcd9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/a76db1f7bd6c8939c5c7c55ed4332733/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/a76db1f7bd6c8939c5c7c55ed4332733/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/f416eb2dd0d71c4632ac7cf34c59435d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/e6124f7af8e3994f052d8d3b71105ab3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/e6124f7af8e3994f052d8d3b71105ab3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/34c2bdcfa4789b9719d8f5b4c819ecff/AndroidManifest.xml:20:5-44

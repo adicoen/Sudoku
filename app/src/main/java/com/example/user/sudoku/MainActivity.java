@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TableLayout board, bar;
     String value = "1";
     TextView text;
-    int give = 26;
     int count = 0;
 
     @Override
@@ -26,8 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main_activity);
-        board = (TableLayout) findViewById(R.id.tableLayout);
-        bar = (TableLayout) findViewById(R.id.tableLayout2);
+        board = findViewById(R.id.tableLayout);
+        bar = findViewById(R.id.tableLayout2);
         buttons = new Button[91];
         for (int i = 3; i < 94; i++) {
             String str = "button" + i;
@@ -42,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         for (int i = 0; i < given.length; i++) {
             given[i].setText(Integer.toString(nums[i]));
             given[i].setTextColor(Color.parseColor("#5e6c82"));
+            given[i].setEnabled(false);
         }
     }
 
@@ -89,17 +89,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 text.setText("erase");
                 break;
             default:
-                for (int i = 9; i < 90; i++) {
-                    if (v == buttons[i]) {
+                for (int i = 9; i < 90; i++)
+                    if (v == buttons[i])
                         buttons[i].setText(value);
-                    }
-                }
         }
-        for (int i = 3; i < 84; i++) {
-            count += Integer.parseInt(buttons[i].getText().toString());
-        }
-        if (count == 405) {
-            startActivity(new Intent(MainActivity.this, Highscores.class));
+
+        for (int i = 9; i < 90; i++) {
+            if (buttons[i].getText() == "")
+                break;
+            count = Integer.parseInt(buttons[i].getText().toString());
+            if (count == 405 && i >= 89)
+                startActivity(new Intent(MainActivity.this, Highscores.class));
         }
     }
 }

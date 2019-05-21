@@ -4,7 +4,7 @@
             "outputFile": "/Users/eddiecohen/AndroidStudioProjects/Sudoku/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "/Users/eddiecohen/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e9c3ee445ec779dbfb0e7179796b7a1c/res/values-sk/values-sk.xml",
+                    "source": "/Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/63f37dcdee2baa82a1da5ff905f002bc/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/eddiecohen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fd88fe5592ab85b14caf394bd69a3ed1/res/values-sk/values-sk.xml",
+                    "source": "/Users/eddiecohen/.gradle/caches/transforms-2/files-2.1/4df1b4458a48b94b1b2f4b00d09568bc/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

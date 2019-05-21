@@ -1,4 +1,12 @@
 package com.example.user.sudoku;
 
-public class Highscores {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+public class Highscores extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
 }
