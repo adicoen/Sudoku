@@ -1032,6 +1032,9 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable numbersmodel
 drawable numbersmodel1
+drawable o9csk
+drawable o9cska
+drawable o9cskb
 drawable rightborder
 drawable settings
 drawable sud
@@ -1219,7 +1222,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id info
 id invisible
 id italic

@@ -16,7 +16,7 @@ public class GameMenu extends AppCompatActivity {
         Button btn1 = findViewById(R.id.button1);
         Button btn2 = findViewById(R.id.button2);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        /*btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(GameMenu.this, Settings.class));
@@ -33,6 +33,6 @@ public class GameMenu extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(GameMenu.this, Highscores.class));
             }
-        });
+        });*/
     }
 }

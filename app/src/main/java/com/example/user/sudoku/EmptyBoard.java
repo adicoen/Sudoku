@@ -3,7 +3,30 @@ package com.example.user.sudoku;
 import android.graphics.Bitmap;
 
 public class EmptyBoard extends GameObject {
-    public EmptyBoard(Bitmap res, int width, int height) {
-        super(res, width, height);
+    private int x;
+    private int y;
+
+    public EmptyBoard(Bitmap image, int width, int height, int x, int y) {
+        super(image, width, height);
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    @Override
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    @Override
+    public void setY(int y) {
+        this.y = y;
     }
 }

@@ -1,3 +1,4 @@
+
 package com.example.user.sudoku;
 
 import android.graphics.Bitmap;
@@ -39,3 +40,4 @@ public class GameObject {
         return new Rect(x, y, x + width, y + height);
     }
 }
+
